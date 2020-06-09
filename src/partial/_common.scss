@@ -1,0 +1,37 @@
+h1, h2, h3, p, small, a{
+    color: $rd_col;
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a:hover{
+    color: $nd_col;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 65px;
+}
+
+.btn-container{
+    margin: 30px 0 15px;
+
+    span{
+        opacity: .5;
+        margin: 0 10px;
+    }
+}
+
+.btn-default{
+    padding: 5px 20px;
+    background-color: $nd_col;
+    color: white;
+
+    &:hover{
+        background-color: #233569;
+        color: white;
+    }
+}

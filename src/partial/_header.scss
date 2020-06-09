@@ -1,0 +1,41 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar{
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid $rd_col;
+}
+
+.navbar-light{
+    background-color: white;
+}
+
+#navbarNavDropdown{
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link,.navbar-light .dropdown-item,.navbar-light .navbar-toggler{
+    color: $rd_col;
+    font-weight: 600;
+    &:not(.navbar-brand):hover{
+        color: $nd_col;
+    }
+}
+
+.btn-header{
+    padding: 8px 10px;
+    border: 1px solid $nd_col;
+    border-radius: 7px;
+    font-weight: 600;
+    color: $nd_col;
+    width: 100%;
+    &:hover{
+        background-color: $nd_col;
+        color: white;
+    }
+}
