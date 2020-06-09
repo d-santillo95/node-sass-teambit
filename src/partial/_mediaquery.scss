@@ -18,6 +18,17 @@
     h1, h2, h3, p, small, a{
         line-height: 1.5;
     }
+
+    #second-section{
+        .ts{
+            text-align: left;
+        }
+
+        img{
+            width: auto;
+            height: 470px;
+        }
+    }
 }
 
 @media (min-width: 1200px){
