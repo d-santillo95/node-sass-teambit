@@ -16192,30 +16192,25 @@ header {
   z-index: 3;
   background-color: white;
 }
-
-.navbar {
+header .navbar {
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #58402c;
 }
-
-.navbar-light {
+header .navbar-light {
   background-color: white;
 }
-
-#navbarNavDropdown {
+header #navbarNavDropdown {
   flex-grow: 0;
 }
-
-.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link, .navbar-light .dropdown-item, .navbar-light .navbar-toggler {
+header .navbar-light .navbar-brand, header .navbar-light .navbar-nav .nav-link, header .navbar-light .dropdown-item, header .navbar-light .navbar-toggler {
   color: #58402c;
   font-weight: 600;
 }
-.navbar-light .navbar-brand:not(.navbar-brand):hover, .navbar-light .navbar-nav .nav-link:not(.navbar-brand):hover, .navbar-light .dropdown-item:not(.navbar-brand):hover, .navbar-light .navbar-toggler:not(.navbar-brand):hover {
+header .navbar-light .navbar-brand:not(.navbar-brand):hover, header .navbar-light .navbar-nav .nav-link:not(.navbar-brand):hover, header .navbar-light .dropdown-item:not(.navbar-brand):hover, header .navbar-light .navbar-toggler:not(.navbar-brand):hover {
   color: #30488f;
 }
-
-.btn-header {
+header .btn-header {
   padding: 8px 10px;
   border: 1px solid #30488f;
   border-radius: 7px;
@@ -16223,7 +16218,7 @@ header {
   color: #30488f;
   width: 100%;
 }
-.btn-header:hover {
+header .btn-header:hover {
   background-color: #30488f;
   color: white;
 }
@@ -16330,6 +16325,35 @@ header {
   z-index: 2;
 }
 
+footer {
+  padding: 50px 0;
+}
+footer p {
+  font-weight: 600;
+  margin-top: 20px;
+}
+footer p a {
+  color: #30488f;
+}
+footer p a:hover {
+  color: #233569;
+  text-decoration: underline;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  font-size: 14px;
+  padding: 5px 0;
+  width: 100%;
+}
+footer ul li:first-child {
+  color: #58402c;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
 @media (min-width: 992px) {
   .navbar {
     padding: 20px 0;
@@ -16357,6 +16381,18 @@ header {
   #second-section img {
     width: auto;
     height: 470px;
+  }
+
+  footer .wrap-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer .wrap-brand img {
+    flex-shrink: 0;
+  }
+  footer .wrap-brand p {
+    margin: 0 0 0 15px;
   }
 }
 @media (min-width: 1200px) {

@@ -1,0 +1,34 @@
+footer{
+    padding: 50px 0;
+
+    p{
+        font-weight: 600;
+        margin-top: 20px;
+
+        a{
+            color: $nd_col;
+
+            &:hover{
+                color: #233569;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    ul{
+        list-style: none;
+
+        li{
+            font-size: 14px;
+            padding: 5px 0;
+            width: 100%;
+        }
+
+        li:first-child{
+            color: $rd_col;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -29,6 +29,22 @@
             height: 470px;
         }
     }
+
+    footer {
+        .wrap-brand{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                flex-shrink: 0;
+            }
+
+            p{
+                margin: 0 0 0 15px;
+            }
+        }
+    }
 }
 
 @media (min-width: 1200px){
