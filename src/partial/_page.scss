@@ -1,5 +1,4 @@
 .jumbotron{
-    background-color: white;
     text-align: center;
 
     p{
@@ -8,5 +7,28 @@
 
     img{
         margin-top: 35px;
+    }
+}
+
+.wrap-img{
+    margin: 30px 0;
+
+    img{
+        height: 100px;
+    }
+}
+
+#first-section{
+    .row{
+        margin: 0;
+    }
+
+    .row:first-child{
+        border-bottom: 1px solid $rd_col;
+        margin-bottom: 80px;
+    }
+
+    .rabbit{
+        margin: 70px 0 100px;
     }
 }

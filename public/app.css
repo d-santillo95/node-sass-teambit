@@ -13186,6 +13186,10 @@ h1 {
   font-size: 50px;
 }
 
+p {
+  font-size: 18px;
+}
+
 a:hover {
   color: #30488f;
   text-decoration: none;
@@ -13195,12 +13199,25 @@ main {
   padding-top: 65px;
 }
 
+section {
+  padding: 50px 0 80px;
+}
+
+section:nth-child(2n+1) {
+  background-color: white;
+}
+
+section:nth-child(2n+2) {
+  background-color: #ffe7d2;
+}
+
 .btn-container {
   margin: 30px 0 15px;
 }
 
 .btn-container span {
-  opacity: 0.5;
+  color: #58402c;
+  opacity: 0.7;
   margin: 0 10px;
 }
 
@@ -13220,6 +13237,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 2;
+  background-color: white;
 }
 
 .navbar {
@@ -13266,7 +13284,6 @@ header {
 }
 
 .jumbotron {
-  background-color: white;
   text-align: center;
 }
 
@@ -13276,6 +13293,27 @@ header {
 
 .jumbotron img {
   margin-top: 35px;
+}
+
+.wrap-img {
+  margin: 30px 0;
+}
+
+.wrap-img img {
+  height: 100px;
+}
+
+#first-section .row {
+  margin: 0;
+}
+
+#first-section .row:first-child {
+  border-bottom: 1px solid #58402c;
+  margin-bottom: 80px;
+}
+
+#first-section .rabbit {
+  margin: 70px 0 100px;
 }
 
 @media (min-width: 992px) {
@@ -13307,7 +13345,7 @@ header {
 
 @media (min-width: 1200px) {
   .container-fluid {
-    width: 1180px;
+    width: 1150px;
   }
 
   .jumbotron {
