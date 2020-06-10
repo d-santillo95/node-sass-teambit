@@ -1,7 +1,15 @@
 @media (min-width: 992px){
     header{
+
+        border: none;
+
+        &.scrolled{
+            border-bottom: 1px solid $rd_col;
+        }
+
         .navbar{
             padding: 20px 0;
+            border-bottom: 1px solid $rd_col;
 
             &.scrolled{
                 padding: 10px 0;
