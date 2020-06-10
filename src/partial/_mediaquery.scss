@@ -1,14 +1,31 @@
 @media (min-width: 992px){
-    .navbar{
-        padding: 20px 0;
-    }
+    header{
+        .navbar{
+            padding: 20px 0;
 
-    .nav-item:not(:first-child){
-        margin-left: 30px;
-    }
+            &.scrolled{
+                padding: 10px 0;
+                border: none;
+            }
+        }
 
-    .btn-header{
-        width: auto;
+        .nav-item:not(:first-child){
+            margin-left: 30px;
+        }
+
+        .btn-header{
+            width: auto;
+
+            &.scrolled{
+                background-color: $nd_col;
+                color: white;
+
+                &:hover{
+                    background-color: #233569;
+                    color: white;
+                }
+            }
+        }
     }
 
     main{
